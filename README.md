@@ -19,24 +19,24 @@ Open and follow the data_collection.ipynb notebook
 #### Step 2 - Train neural network
 
 
-###Option 1 - Train on Jetson Nano
+#### Option 1 - Train on Jetson Nano
 Connect to your robot by navigating to http://<jetbot_ip_address>:8888
 Sign in with the default password jetbot
 In the Jupyter Lab tab, navigate to ~/collision_avoidance
 Open and follow the train_model_resnet18.ipynb notebook
 
-###Option 2 - Train on other GPU machine
+#### Option 2 - Train on other GPU machine
 Connect to a GPU machine with PyTorch installed and a Jupyter Lab server running
 Upload the collision avoidance training notebook to this machine
 Open and follow the train_model_resnet18.ipynb notebook
 
-###Step 3 - Optimize the model on Jetson Nano
+#### Step 3 - Optimize the model on Jetson Nano
 Connect to your robot by navigating to https://<jetbot_ip_address>:8888
 Sign in with the default password jetbot
 Shutdown all other running notebooks by selecting Kernel -> Shutdown All Kernels...
 Navigate to ~/Notebooks/road_following
 Open and follow the live_demo_resnet18_build_trt.ipynb notebook to optimize the model with TensorRT
-###Step 4 - Run live demo on JetBot
+#### Step 4 - Run live demo on JetBot
 
 
 Connect to your robot by navigating to http://<jetbot_ip_address>:8888

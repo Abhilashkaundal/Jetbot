@@ -6,7 +6,7 @@ https://linksharing.samsungcloud.com/545Bm73w1nnL
 
 
 
-###Step 1 - Collect data on JetBot
+#### Step 1 - Collect data on JetBot
 
 
 Connect to your robot by navigating to http://<jetbot_ip_address>:8888
@@ -16,7 +16,7 @@ Navigate to ~/Notebooks/collision_avoidance/
 Open and follow the data_collection.ipynb notebook
 ???+ tip We provide a pre-trained model so you can skip to step 3 if desired. This model was trained on a limited dataset using the Raspberry Pi V2 Camera with wide angle attachment.
 
-###Step 2 - Train neural network
+#### Step 2 - Train neural network
 
 
 ###Option 1 - Train on Jetson Nano
